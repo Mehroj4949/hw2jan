@@ -666,12 +666,24 @@ video {
   margin-left: 620px;
 }
 
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[433px\] {
+  height: 433px;
 }
 
 .w-\[90\%\] {
@@ -728,6 +740,10 @@ video {
 
 .w-\[96\%\] {
   width: 96%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .flex-col {
@@ -797,6 +813,36 @@ video {
   background-color: rgb(239 163 90 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-blue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#EFA359\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 163 89 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(https\:\/\/github\.com\/Mehroj4949\/hw2jan\/blob\/3ddf1715c4dc47e0a722a7a3f570bf993bb8405e\/src\/btnbg\.png\)\] {
+  background-image: url(https://github.com/Mehroj4949/hw2jan/blob/3ddf1715c4dc47e0a722a7a3f570bf993bb8405e/src/btnbg.png);
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/github\.com\/Mehroj4949\/hw2jan\/blob\/3ddf1715c4dc47e0a722a7a3f570bf993bb8405e\/src\/btnbg\.png\'\)\] {
+  background-image: url('https://github.com/Mehroj4949/hw2jan/blob/3ddf1715c4dc47e0a722a7a3f570bf993bb8405e/src/btnbg.png');
+}
+
 .px-\[\] {
   padding-left: ;
   padding-right: ;
@@ -820,6 +866,56 @@ video {
 .px-\[40px\] {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.px-\[60px\] {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.px-\[80px\] {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.px-\[180px\] {
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.px-\[150px\] {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.px-\[130px\] {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.px-\[140px\] {
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .text-center {
@@ -917,6 +1013,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:mt-\[100px\] {
     margin-top: 100px;
+  }
+
+  .lg\:mt-\[80px\] {
+    margin-top: 80px;
   }
 
   .lg\:block {
